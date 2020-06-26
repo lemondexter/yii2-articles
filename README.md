@@ -136,14 +136,14 @@ Set on your configuration file, in modules section
 
 ### 4. Other Configurations
 
-To use easily this extension is strongly recommended install and config dektrium/yii2-user to manage user
+This extension previously relied heavily on the dektrium 'yii2-user' and 'yii2-rbac' extensions. Since these are now abandoned, some adaptations have been made to make this extension work with the nearest compatible extension 2amigos 'yii2-usuario', which itself is derived from the dektrium extensions. It is therefore strongly recommended that you install and configure 2amigos/yii2-usuario to manage users and auth permissions.
 
-[Installation](https://github.com/dektrium/yii2-user/blob/master/docs/getting-started.md)  
-[Configuration](https://github.com/dektrium/yii2-user/blob/master/docs/configuration.md)
+[Installation](https://github.com/2amigos/yii2-usuario/blob/master/docs/getting-started.md)  
+[Documentation](http://yii2-usuario.readthedocs.io/en/latest/)
 
-and dektrium/yii2-rbac to manage auth permission
+Later enhancements made by Cinghie also made Cinghie's own 'yii2-multilanguage' a requirement, so this is also now included in the packages composer.json.
 
-[Installation](https://github.com/dektrium/yii2-rbac/blob/master/docs/installation.md)
+Most necessary modifications are to the 'use' references, substituting Da/User/Module for the dektrium ones. However, apart from the main 'Article.php file', most occur in the 'yii2-traits' and 'yii2-user-extended' dependencies.
 
 ### 5. Add your User as admin
 
