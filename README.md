@@ -136,7 +136,7 @@ Set on your configuration file, in modules section
 
 ### 4. Other Configurations
 
-This extension previously relied heavily on the dektrium 'yii2-user' and 'yii2-rbac' extensions. Since these are now abandoned, some adaptations have been made to make this extension work with the nearest compatible extension 2amigos 'yii2-usuario', which itself is derived from the dektrium extensions. It is therefore strongly recommended that you install and configure 2amigos/yii2-usuario to manage users and auth permissions.
+This extension previously relied heavily on the dektrium 'yii2-user' and 'yii2-rbac' extensions. Since these are now abandoned, some adaptations have been made to make this extension work with the nearest compatible extension 2amigos/yii2-usuario, which itself is derived from the dektrium extensions. It is therefore strongly recommended that you install and configure 2amigos/yii2-usuario to manage users and auth permissions.
 
 [Installation](https://github.com/2amigos/yii2-usuario/blob/master/docs/getting-started.md)  
 [Documentation](http://yii2-usuario.readthedocs.io/en/latest/)
