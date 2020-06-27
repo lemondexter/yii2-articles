@@ -145,7 +145,7 @@ Later enhancements made by Cinghie also made Cinghie's own 'yii2-multilanguage' 
 
 The original author also included their 'yii2-user-extended' extension. This was 'overkill' for my needs so apart from the 'yii2-multilanguage' and the main 'yii2-articles' extensions, I omitted user-extended, However this seemed to break some of the category and items views (for language dropdowns) so a minor change was made to the index.php code to simplify the gridview header (and bring in line with other columns).
 
-Most necessary modifications are to the 'use' references, substituting Da/User/Module for the dektrium ones. However, apart from the main 'Article.php file', most occur in the 'yii2-traits' and 'yii2-user-extended' dependencies.
+Most necessary modifications are to the 'use' references, substituting Da/User/Module for the dektrium ones. However, apart from the main 'Article.php file', most occur in the 'yii2-traits' dependencies.
 
 ### 5. Add your User as admin
 
